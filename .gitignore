@@ -1,0 +1,7 @@
+# ignore ALL .log files
+*.log
+
+# ignore ALL files in these root directories
+/build/
+/scenic.egg-info/
+/scenic/projects/baselines/
