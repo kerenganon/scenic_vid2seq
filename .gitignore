@@ -1,7 +1,15 @@
 # ignore ALL .log files
 *.log
 
-# ignore ALL files in these root directories
+# ignore ALL files in these root paths
+# directories
 /build/
 /scenic.egg-info/
 /scenic/projects/baselines/
+/scenic/projects/vid2seq/shanghai_tech_dataset/
+/.vscode/
+/t5x/
+**/__pycache__/
+/scenic/projects/vid2seq/metrics/
+# files
+/scenic/projects/vid2seq/anet-captions_pretrained_vid2seq_model_checkpoint

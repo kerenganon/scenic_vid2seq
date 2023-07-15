@@ -11,7 +11,7 @@ import ml_collections
 from scenic import app
 from scenic.projects.pointcloud import models
 from scenic.projects.pointcloud import pointcloud_dataset
-from scenic.train_lib_deprecated import trainers
+from scenic.train_lib import trainers
 
 FLAGS = flags.FLAGS
 

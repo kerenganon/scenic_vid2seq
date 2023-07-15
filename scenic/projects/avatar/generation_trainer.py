@@ -30,10 +30,10 @@ from scenic.projects.avatar import decode
 from scenic.projects.avatar import metrics_utils
 from scenic.projects.avatar import model_utils
 from scenic.projects.avatar.datasets import dataset_utils as ds_utils
-from scenic.train_lib_deprecated import lr_schedules
-from scenic.train_lib_deprecated import optimizers
-from scenic.train_lib_deprecated import pretrain_utils
-from scenic.train_lib_deprecated import train_utils
+from scenic.train_lib import lr_schedules
+from scenic.train_lib import optimizers
+from scenic.train_lib import pretrain_utils
+from scenic.train_lib import train_utils
 
 from tensorflow.io import gfile
 

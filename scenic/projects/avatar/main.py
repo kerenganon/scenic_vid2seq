@@ -8,7 +8,7 @@ import ml_collections
 from scenic import app
 from scenic.projects.avatar import generation_trainer
 from scenic.projects.avatar import models
-from scenic.train_lib_deprecated import train_utils
+from scenic.train_lib import train_utils
 
 
 FLAGS = flags.FLAGS

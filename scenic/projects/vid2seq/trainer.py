@@ -29,10 +29,10 @@ from scenic.projects.vid2seq import load_utils
 from scenic.projects.vid2seq import models
 from scenic.projects.vid2seq import train_utils as vid2seq_train_utils
 from scenic.projects.vid2seq import dvc_eval
-from scenic.train_lib_deprecated import lr_schedules
-from scenic.train_lib_deprecated import optimizers
-from scenic.train_lib_deprecated import pretrain_utils
-from scenic.train_lib_deprecated import train_utils
+from scenic.train_lib import lr_schedules
+from scenic.train_lib import optimizers
+from scenic.train_lib import pretrain_utils
+from scenic.train_lib import train_utils
 
 # Note this list must be in the exact order of the inputs required by the model.
 MAX_CAPTION_STR_LEN = 200

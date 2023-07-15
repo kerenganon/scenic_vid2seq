@@ -3,4 +3,10 @@ gin-config
 t5
 t5x
 six
-flax==0.5
+flax==0.7
+clip @ git+https://github.com/openai/CLIP.git
+tf-models-official
+jax
+ml_collections
+tensorflow-io
+captioning-metrics @ git+https://github.com/antoyang/captioning-metrics.git

@@ -10,7 +10,7 @@ import jax
 import jax.numpy as jnp
 import ml_collections
 from scenic.common_lib import debug_utils
-from scenic.train_lib_deprecated import optimizers
+from scenic.train_lib import optimizers
 
 PyTree = Union[Mapping[str, Mapping], Any]
 PRNGKey = jnp.ndarray

@@ -87,3 +87,30 @@ If you use Vid2Seq, please use the following BibTeX entry.
   year={2023}
 }
 ```
+
+## Keren's additions:
+### Install requirements:
+```shell
+pip install -r scenic/projects/vid2seq/requirements.txt
+```
+
+### In case you get this error:
+```shell
+ERROR: Could not find a version that satisfies the requirement t5x (from versions: 0.0.0)
+ERROR: No matching distribution found for t5x
+```
+Then you'll need to follow the instructions in https://github.com/google-research/t5x (according to https://github.com/google-research/scenic/issues/734). Specifically:
+```shell
+git clone --branch=main https://github.com/google-research/t5x
+cd t5x
+
+python3 -m pip install -e '.[tpu]' -f \
+  https://storage.googleapis.com/jax-releases/libtpu_releases.html
+```
+
+### Metrics dir 
+You'll also need to clone https://github.com/antoyang/captioning-metrics (as per https://github.com/google-research/scenic/issues/784#issuecomment-1554106693):
+```shell
+git clone https://github.com/antoyang/captioning-metrics.git
+```
+Please rename the directory to `metrics` and move it under `scenic/projects/vid2seq/`.

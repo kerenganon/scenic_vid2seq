@@ -13,9 +13,9 @@ import jax
 import jax.numpy as jnp
 import ml_collections
 from scenic.common_lib import debug_utils
-from scenic.train_lib_deprecated.pretrain_utils import get_params_and_model_state_dict
-from scenic.train_lib_deprecated.pretrain_utils import inspect_params
-from scenic.train_lib_deprecated.train_utils import TrainState
+from scenic.train_lib.pretrain_utils import get_params_and_model_state_dict
+from scenic.train_lib.pretrain_utils import inspect_params
+from scenic.train_lib.train_utils import TrainState
 from tensorflow.io import gfile
 
 PyTree = Union[Mapping[str, Mapping], Any]

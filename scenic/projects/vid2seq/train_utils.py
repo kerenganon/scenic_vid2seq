@@ -4,7 +4,7 @@ from typing import Any, Dict, Optional, Tuple
 
 from flax.core import frozen_dict
 import ml_collections
-from scenic.train_lib_deprecated.train_utils import TrainState
+from scenic.train_lib.train_utils import TrainState
 
 
 def get_average_batch_size(config: ml_collections.ConfigDict):
